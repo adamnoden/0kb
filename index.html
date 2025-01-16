@@ -13,13 +13,22 @@
       margin-top: 50px;
       font-family: monospace;
     }
+    h1 {
+      font-size: 52px
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 36px;
+      }
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
 
-    <h1 style="font-size: 52px">Zero-Kanban</h1>
+    <h1>Zero-Kanban</h1>
 
     <p>
       The <em>Zero-Overhead Kanban System</em> (0KB) is a modified Kanban system for small, tight-knit teams (max 4) tasked with rapidly building and launching a single project under skunkworks conditions.
@@ -34,7 +43,7 @@
         <strong>Limit Workflow Stages</strong>
         <ul>
           <li><strong>Classic Kanban:</strong> Multiple (often 5 or more) swimlane stages. </li>
-          <li><strong>Zero-Kanban:</strong> Only three: Staged, Active, Won.</li>
+          <li><strong>0KB:</strong> Only three: Staged, Active, Won.</li>
         </ul>
       </li>
       
@@ -42,7 +51,7 @@
         <strong>Single Mission Focus</strong>
         <ul>
           <li><strong>Classic Kanban:</strong> Boards can track multiple workflows or projects.</li>
-          <li><strong>Zero-Kanban:</strong> Each board is dedicated to a single mission.</li>
+          <li><strong>0KB:</strong> Each board is dedicated to a single mission.</li>
         </ul>
       </li>
       
@@ -50,7 +59,7 @@
         <strong>Binary Estimation</strong>
         <ul>
           <li><strong>Classic Kanban:</strong> Uses detailed effort estimation methods like story points or time estimates, often requiring team meetings to discuss.</li>
-          <li><strong>Zero-Kanban:</strong> Tasks are either <strong>Light</strong> or <strong>Heavy</strong>. Light:
+          <li><strong>0KB:</strong> Tasks are either <strong>Light</strong> or <strong>Heavy</strong>. Light:
             quick wins or simple tasks, anything &lt; than a day. Heavy: anything above that. </li>
         </ul>
       </li>
@@ -59,7 +68,7 @@
         <strong>Strict WIP Limits</strong>
         <ul>
           <li><strong>Classic Kanban:</strong> No enforced caps on how many tickets can be assigned</li>
-          <li><strong>Zero-Kanban:</strong> A hard cap on Active tasks per person: 1.</li>
+          <li><strong>0KB:</strong> A hard cap on Active tasks per person: 1.</li>
         </ul>
       </li>
 
@@ -67,7 +76,7 @@
         <strong>Strict WIP Limits</strong>
         <ul>
           <li><strong>Classic Kanban:</strong> No enforced caps on how many tickets can be assigned</li>
-          <li><strong>Zero-Kanban:</strong> Limit on assigned tasks per person: 1.</li>
+          <li><strong>0KB:</strong> Limit on assigned tasks per person: 1.</li>
         </ul>
       </li>
 
@@ -75,12 +84,18 @@
         <strong>Role Focus</strong>
         <ul>
             <li><strong>Classic Kanban:</strong> Includes oversight roles like project managers and QA alongside makers.</li>
-            <li><strong>Zero-Kanban:</strong> Only makers: designers, devs, etc. Oversight  is replaced by shared squad accountability.</li>
+            <li><strong>0KB:</strong> Only makers: designers, devs, etc. Oversight  is replaced by shared squad accountability.</li>
         </ul>
     </li>
     </ol>
+    <p style="margin-top: 60px">
+      <em>“Execution is the chariot of genius.” – William Blake</em>
+    </p>
   </div>
 
 </body>
 
 </html>
+
+
+
